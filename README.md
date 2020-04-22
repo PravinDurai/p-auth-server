@@ -1,13 +1,13 @@
 # p-auth-server
 
-# /generate
+# https://p-api-gateway.cfapps.io/auth/generate
 #used for generating the jwt token
 
-# /isexpired/{token}
+#  https://p-api-gateway.cfapps.io/auth/isexpired/{token}
 # Validates the given jwt token and returns true/false
 
-# /user
+# https://p-api-gateway.cfapps.io/auth/user
 # Used to create new user with userName, Password and role
 
-# /role/{rolename}
+#  https://p-api-gateway.cfapps.io/auth/role/{rolename}
 # Used to add roles to user and it can be either "User" or "Admin"
